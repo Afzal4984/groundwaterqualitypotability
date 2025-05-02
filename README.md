@@ -1,4 +1,4 @@
-# 📈 Stock Price Prediction with CatBoost: GPU vs. CPU Performance Benchmark
+# 📈 Groundwater potability
 
 Welcome to this project where we explore **stock price prediction** using **CatBoost**, a powerful gradient boosting library, and compare its performance on **CPU vs GPU**. This repository is designed for data scientists, ML engineers, and finance enthusiasts who are interested in the practical applications of ML in stock forecasting and hardware performance evaluation.
 
