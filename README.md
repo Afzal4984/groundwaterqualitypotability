@@ -1,6 +1,6 @@
-# 📈 Groundwater potability
+# 💧 Groundwater Potability Prediction
 
-Welcome to this project where we explore **stock price prediction** using **CatBoost**, a powerful gradient boosting library, and compare its performance on **CPU vs GPU**. This repository is designed for data scientists, ML engineers, and finance enthusiasts who are interested in the practical applications of ML in stock forecasting and hardware performance evaluation.
+Welcome to this project where we explore **groundwater quality prediction** using **machine learning algorithms**, focusing on whether the water is **potable (safe for drinking)** based on its physicochemical properties. This repository is ideal for data scientists, environmental engineers, and students exploring ML applications in environmental science.
 
 ---
 
@@ -13,11 +13,10 @@ Welcome to this project where we explore **stock price prediction** using **CatB
 - [⚙️ Setup & Installation](#️-setup--installation)
 - [📊 Dataset](#-dataset)
 - [🔧 Methodology](#-methodology)
-- [⚡ GPU vs. CPU Benchmark](#-gpu-vs-cpu-benchmark)
 - [📈 Evaluation Metrics](#-evaluation-metrics)
 - [📌 Results](#-results)
 - [📁 Project Structure](#-project-structure)
-- [🛠️ Technologies Used](#️-technologies-used)
+- [🛠️ Technologies Used](#-technologies-used)
 - [📎 References](#-references)
 - [🙌 Acknowledgements](#-acknowledgements)
 - [📬 Contact](#-contact)
@@ -27,52 +26,54 @@ Welcome to this project where we explore **stock price prediction** using **CatB
 ## 🔍 Overview
 
 This project aims to:
-- Predict stock price movement using machine learning.
-- Analyze and visualize the impact of hardware acceleration on model training.
-- Compare runtime performance between CPU and GPU.
-- Evaluate the model using industry-standard classification metrics.
+- Predict whether groundwater is safe to drink using machine learning.
+- Understand which physicochemical features contribute most to water quality.
+- Evaluate multiple models to determine the most effective algorithm.
 
 ---
 
 ## 🚀 Objective
 
-- To build a predictive model using `CatBoost` to classify future stock price movement.
-- To perform a benchmark analysis comparing training time and accuracy on CPU vs GPU.
-- To interpret and visualize model performance using ROC-AUC, accuracy, and other metrics.
+- To build a predictive model that classifies groundwater as **potable** or **non-potable**.
+- To preprocess the dataset and handle missing or anomalous values.
+- To evaluate model performance using accuracy, precision, recall, and F1-score.
 
 ---
 
 ## 📦 Features
 
-- ✅ Data Preprocessing & Feature Engineering  
-- ✅ Stock Price Prediction using `CatBoostClassifier`  
-- ✅ Support for both CPU and GPU modes  
-- ✅ Confusion Matrix & Classification Report  
-- ✅ ROC-AUC Score Visualization  
-- ✅ Performance Benchmarking  
+- ✅ Data Cleaning and Preprocessing  
+- ✅ Handling Missing Values  
+- ✅ Feature Scaling and Selection  
+- ✅ Model Training using multiple ML algorithms  
+- ✅ Evaluation with Confusion Matrix and ROC Curve  
+- ✅ Feature Importance Analysis  
 
 ---
 
 ## 🧠 Algorithms Used
 
-- **CatBoostClassifier**: A gradient boosting algorithm developed by Yandex, especially effective with categorical features and robust to overfitting.
-- **Grid Search (Optional)**: For hyperparameter tuning.
-- **ROC-AUC** and **Accuracy** for model evaluation.
+- **Logistic Regression**
+- **Random Forest Classifier**
+- **Support Vector Machine (SVM)**
+- **K-Nearest Neighbors (KNN)**
+- **XGBoost (optional)**
 
 ---
 
 ## ⚙️ Setup & Installation
 
-Make sure Python 3.7+ is installed.
+Ensure you have Python 3.7+ installed.
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/stock-catboost-gpu-cpu.git
-cd stock-catboost-gpu-cpu
+git clone https://github.com/yourusername/groundwater-potability.git
+cd groundwater-potability
 
 # Create virtual environment (optional)
 python -m venv env
 source env/bin/activate  # On Windows use `env\Scripts\activate`
 
-# Install dependencies
+# Install required libraries
 pip install -r requirements.txt
+
