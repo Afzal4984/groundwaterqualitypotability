@@ -1,6 +1,6 @@
 # 💧 Groundwater Potability Prediction
 
-Welcome to this project where we explore **groundwater quality prediction** using **machine learning algorithms**, focusing on whether the water is **potable (safe for drinking)** based on its physicochemical properties. This repository is ideal for data scientists, environmental engineers, and students exploring ML applications in environmental science.
+Welcome to this project where we explore **groundwater quality prediction** using **machine learning algorithms**, focusing on whether the water is **potable (safe for drinking)** based on its physicochemical properties. This repository is ideal for data scientists, environmental-engineers, and students exploring ML applications in environmental science.
 
 ---
 
